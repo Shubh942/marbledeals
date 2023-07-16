@@ -16,7 +16,7 @@ app.use(errorHandler);
 
 
 
-mongoose.connect('mongodb://localhost:27017/mydb11',{
+mongoose.connect('mongodb://localhost:27017/mydata',{
 //    useNewParser : true,
 useUnifiedtopoLogy : true})                             
 var db= mongoose.connection;
